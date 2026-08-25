@@ -1,0 +1,4 @@
+delete from [user] where IdUser in('caste','w333')
+ delete from FiveSsAuditortoEnabledtoAudit where IdUser in('caste','w333')
+  delete fivess where createdby in('caste','w333')
+  delete from FiveSsAuditedArea where idfivess in (select idfivess from fivess where createdby in('caste','w333') )
